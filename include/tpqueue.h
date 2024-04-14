@@ -61,7 +61,7 @@ class TPQueue {
                p->prev = h->prev;
                h->prev = p;
                p->prev->next = p;
-               count++
+               count++;
            }
         }
     }
