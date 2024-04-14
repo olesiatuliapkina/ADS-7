@@ -73,7 +73,7 @@ class TPQueue {
         } else {
             SYM temp;
             temp.ch = head->ch;
-            temp.prior = head->prior;    
+            temp.prior = head->prior;
             head = head->next;
             count--;
             return temp;
