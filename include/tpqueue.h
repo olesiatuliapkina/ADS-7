@@ -24,6 +24,7 @@ class TPQueue {
             head->ch = a.ch;
             head->prior = a.prior;
             head->next = head->prev = nullptr;
+            tail = head;
             count++;
             return;
         } else {
