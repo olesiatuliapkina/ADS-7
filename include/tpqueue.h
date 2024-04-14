@@ -38,6 +38,7 @@ class TPQueue {
                tail->next->prev = tail;
                tail = tail->next;
                count++;
+               return;
            } else if (a.prior > head->prior) {
                SYM* p = new SYM;
                p->ch = a.ch;
